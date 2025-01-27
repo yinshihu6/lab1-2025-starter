@@ -1,0 +1,21 @@
+ART:
+    version: '0.4'
+    tables:
+      - name: system_arch_top_level.input_DRAM[1..1]
+        area: 0.0
+      - name: system_arch_top_level.output_DRAM[1..1]
+        area: 0.0
+      - name: system_arch_top_level.weight_DRAM[1..1]
+        area: 0.0
+      - name: system_arch_top_level.global_buffer[1..1]
+        area: 13502.9
+      - name: system_arch_top_level.scratchpad[1..1]
+        area: 292.555
+      - name: system_arch_top_level.weight_reg[1..1]
+        area: 5.98
+      - name: system_arch_top_level.input_reg[1..1]
+        area: 5.98
+      - name: system_arch_top_level.output_reg[1..1]
+        area: 5.98
+      - name: system_arch_top_level.compute[1..1]
+        area: 1726.5

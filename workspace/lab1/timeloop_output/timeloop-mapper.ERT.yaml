@@ -1,0 +1,152 @@
+ERT:
+    version: '0.4'
+    tables:
+      - name: system_arch_top_level.input_DRAM[1..1]
+        actions:
+          - name: read
+            arguments:
+                global_cycle_seconds: 1e-09
+                action_latency_cycles: 1
+            energy: 512.0
+          - name: leak
+            arguments:
+                global_cycle_seconds: 1e-09
+                action_latency_cycles: 1
+            energy: 0.0
+          - name: update
+            arguments:
+                global_cycle_seconds: 1e-09
+                action_latency_cycles: 1
+            energy: 512.0
+          - name: write
+            arguments:
+                global_cycle_seconds: 1e-09
+                action_latency_cycles: 1
+            energy: 512.0
+      - name: system_arch_top_level.output_DRAM[1..1]
+        actions:
+          - name: read
+            arguments:
+                global_cycle_seconds: 1e-09
+                action_latency_cycles: 1
+            energy: 512.0
+          - name: leak
+            arguments:
+                global_cycle_seconds: 1e-09
+                action_latency_cycles: 1
+            energy: 0.0
+          - name: update
+            arguments:
+                global_cycle_seconds: 1e-09
+                action_latency_cycles: 1
+            energy: 512.0
+          - name: write
+            arguments:
+                global_cycle_seconds: 1e-09
+                action_latency_cycles: 1
+            energy: 512.0
+      - name: system_arch_top_level.weight_DRAM[1..1]
+        actions:
+          - name: read
+            arguments:
+                global_cycle_seconds: 1e-09
+                action_latency_cycles: 1
+            energy: 512.0
+          - name: leak
+            arguments:
+                global_cycle_seconds: 1e-09
+                action_latency_cycles: 1
+            energy: 0.0
+          - name: update
+            arguments:
+                global_cycle_seconds: 1e-09
+                action_latency_cycles: 1
+            energy: 512.0
+          - name: write
+            arguments:
+                global_cycle_seconds: 1e-09
+                action_latency_cycles: 1
+            energy: 512.0
+      - name: system_arch_top_level.global_buffer[1..1]
+        actions:
+          - name: read
+            arguments:
+                global_cycle_seconds: 1e-09
+                action_latency_cycles: 1
+            energy: 3.38552
+          - name: leak
+            arguments:
+                global_cycle_seconds: 1e-09
+                action_latency_cycles: 1
+            energy: 0.00014
+          - name: update
+            arguments:
+                global_cycle_seconds: 1e-09
+                action_latency_cycles: 1
+            energy: 6.45356
+          - name: write
+            arguments:
+                global_cycle_seconds: 1e-09
+                action_latency_cycles: 1
+            energy: 6.45356
+      - name: system_arch_top_level.scratchpad[1..1]
+        actions:
+          - name: read
+            arguments: {}
+            energy: 0.226884
+          - name: write
+            arguments: {}
+            energy: 0.226884
+          - name: update
+            arguments: {}
+            energy: 0.226884
+          - name: leak
+            arguments: {}
+            energy: 0.001191
+      - name: system_arch_top_level.weight_reg[1..1]
+        actions:
+          - name: read
+            arguments: {}
+            energy: 0.009
+          - name: write
+            arguments: {}
+            energy: 0.009
+          - name: update
+            arguments: {}
+            energy: 0.009
+          - name: leak
+            arguments: {}
+            energy: 7e-05
+      - name: system_arch_top_level.input_reg[1..1]
+        actions:
+          - name: read
+            arguments: {}
+            energy: 0.009
+          - name: write
+            arguments: {}
+            energy: 0.009
+          - name: update
+            arguments: {}
+            energy: 0.009
+          - name: leak
+            arguments: {}
+            energy: 7e-05
+      - name: system_arch_top_level.output_reg[1..1]
+        actions:
+          - name: read
+            arguments: {}
+            energy: 0.009
+          - name: write
+            arguments: {}
+            energy: 0.009
+          - name: update
+            arguments: {}
+            energy: 0.009
+          - name: leak
+            arguments: {}
+            energy: 7e-05
+      - name: system_arch_top_level.compute[1..1]
+        actions:
+          - name: compute
+            arguments: {}
+            energy: 3.275

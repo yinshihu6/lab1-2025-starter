@@ -1,0 +1,7 @@
+*.npy
+*.jpg
+*.pth
+data/
+workloads/
+simple_weight_stationary/alexnet/
+simple_weight_stationary/mnist/

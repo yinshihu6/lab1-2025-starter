@@ -1,0 +1,40 @@
+ART_summary:
+    version: '0.4'
+    table_summary:
+      - name: system_arch_top_level.input_DRAM[1..1]
+        area: 0.0
+        primitive_estimations: CactiDRAM
+      - name: system_arch_top_level.output_DRAM[1..1]
+        area: 0.0
+        primitive_estimations: CactiDRAM
+      - name: system_arch_top_level.weight_DRAM[1..1]
+        area: 0.0
+        primitive_estimations: CactiDRAM
+      - name: system_arch_top_level.global_buffer[1..1]
+        area: 13502.9
+        primitive_estimations: CactiSRAM
+      - name: system_arch_top_level.scratchpad[1..1]
+        area: 292.555
+        primitive_estimations:
+          - name: storage
+            estimator: Aladdin_table
+      - name: system_arch_top_level.weight_reg[1..1]
+        area: 5.98
+        primitive_estimations:
+          - name: storage
+            estimator: Aladdin_table
+      - name: system_arch_top_level.input_reg[1..1]
+        area: 5.98
+        primitive_estimations:
+          - name: storage
+            estimator: Aladdin_table
+      - name: system_arch_top_level.output_reg[1..1]
+        area: 5.98
+        primitive_estimations:
+          - name: storage
+            estimator: Aladdin_table
+      - name: system_arch_top_level.compute[1..1]
+        area: 1726.5
+        primitive_estimations:
+          - name: compute_unit
+            estimator: Aladdin_table

@@ -1,0 +1,265 @@
+architecture:
+    version: '0.4'
+    local:
+      - name: system_arch_top_level.input_DRAM[1..1]
+        class: DRAM
+        attributes:
+            width: 64
+            datawidth: 16
+            depth: 999999
+            has_power_gating: false
+            n_banks: 2
+            cluster_size: 1
+            reduction_supported: true
+            multiple_buffering: 1
+            min_utilization: 0
+            allow_overbooking: false
+            meshX: 1
+            meshY: 1
+            technology: "45nm"
+            global_cycle_seconds: 1e-09
+            power_gated_at: null
+            version: '0.4'
+            action_latency_cycles: 1
+            cycle_seconds: 1e-09
+            n_instances: 1
+        required_actions:
+          - read
+          - leak
+          - update
+          - write
+        enabled: true
+        area_scale: 1.0
+        energy_scale: 1.0
+      - name: system_arch_top_level.output_DRAM[1..1]
+        class: DRAM
+        attributes:
+            width: 64
+            datawidth: 16
+            depth: 999999
+            has_power_gating: false
+            n_banks: 2
+            cluster_size: 1
+            reduction_supported: true
+            multiple_buffering: 1
+            min_utilization: 0
+            allow_overbooking: false
+            meshX: 1
+            meshY: 1
+            technology: "45nm"
+            global_cycle_seconds: 1e-09
+            power_gated_at: null
+            version: '0.4'
+            action_latency_cycles: 1
+            cycle_seconds: 1e-09
+            n_instances: 1
+        required_actions:
+          - read
+          - leak
+          - update
+          - write
+        enabled: true
+        area_scale: 1.0
+        energy_scale: 1.0
+      - name: system_arch_top_level.weight_DRAM[1..1]
+        class: DRAM
+        attributes:
+            width: 64
+            datawidth: 16
+            depth: 999999
+            has_power_gating: false
+            n_banks: 2
+            cluster_size: 1
+            reduction_supported: true
+            multiple_buffering: 1
+            min_utilization: 0
+            allow_overbooking: false
+            meshX: 1
+            meshY: 1
+            technology: "45nm"
+            global_cycle_seconds: 1e-09
+            power_gated_at: null
+            version: '0.4'
+            action_latency_cycles: 1
+            cycle_seconds: 1e-09
+            n_instances: 1
+        required_actions:
+          - read
+          - leak
+          - update
+          - write
+        enabled: true
+        area_scale: 1.0
+        energy_scale: 1.0
+      - name: system_arch_top_level.global_buffer[1..1]
+        class: SRAM
+        attributes:
+            width: 64
+            depth: 512
+            datawidth: 16
+            n_banks: 1
+            n_rdwr_ports: 2
+            has_power_gating: false
+            cluster_size: 1
+            reduction_supported: true
+            multiple_buffering: 1
+            min_utilization: 0
+            allow_overbooking: false
+            meshX: 1
+            meshY: 1
+            technology: "45nm"
+            global_cycle_seconds: 1e-09
+            power_gated_at: null
+            version: '0.4'
+            action_latency_cycles: 1
+            cycle_seconds: 1e-09
+            n_instances: 1
+        required_actions:
+          - read
+          - leak
+          - update
+          - write
+        enabled: true
+        area_scale: 1.0
+        energy_scale: 1.0
+      - name: system_arch_top_level.scratchpad[1..1]
+        class: smart_storage
+        attributes:
+            depth: 18
+            width: 16
+            datawidth: 16
+            has_power_gating: false
+            n_banks: 2
+            cluster_size: 1
+            reduction_supported: true
+            multiple_buffering: 1
+            min_utilization: 0
+            allow_overbooking: false
+            meshX: 1
+            meshY: 1
+            technology: "45nm"
+            global_cycle_seconds: 1e-09
+            power_gated_at: null
+            version: '0.4'
+            action_latency_cycles: 1
+            cycle_seconds: 1e-09
+            n_instances: 1
+        required_actions:
+          - read
+          - leak
+          - update
+          - write
+        enabled: true
+        area_scale: 1.0
+        energy_scale: 1.0
+      - name: system_arch_top_level.weight_reg[1..1]
+        class: reg_storage
+        attributes:
+            depth: 1
+            width: 16
+            datawidth: 16
+            has_power_gating: false
+            n_banks: 2
+            cluster_size: 1
+            reduction_supported: true
+            multiple_buffering: 1
+            min_utilization: 0
+            allow_overbooking: false
+            meshX: 1
+            meshY: 1
+            technology: "45nm"
+            global_cycle_seconds: 1e-09
+            power_gated_at: null
+            version: '0.4'
+            action_latency_cycles: 1
+            cycle_seconds: 1e-09
+            n_instances: 1
+        required_actions:
+          - read
+          - leak
+          - update
+          - write
+        enabled: true
+        area_scale: 1.0
+        energy_scale: 1.0
+      - name: system_arch_top_level.input_reg[1..1]
+        class: reg_storage
+        attributes:
+            depth: 1
+            width: 16
+            datawidth: 16
+            has_power_gating: false
+            n_banks: 2
+            cluster_size: 1
+            reduction_supported: true
+            multiple_buffering: 1
+            min_utilization: 0
+            allow_overbooking: false
+            meshX: 1
+            meshY: 1
+            technology: "45nm"
+            global_cycle_seconds: 1e-09
+            power_gated_at: null
+            version: '0.4'
+            action_latency_cycles: 1
+            cycle_seconds: 1e-09
+            n_instances: 1
+        required_actions:
+          - read
+          - leak
+          - update
+          - write
+        enabled: true
+        area_scale: 1.0
+        energy_scale: 1.0
+      - name: system_arch_top_level.output_reg[1..1]
+        class: reg_storage
+        attributes:
+            depth: 1
+            width: 16
+            datawidth: 16
+            has_power_gating: false
+            n_banks: 2
+            cluster_size: 1
+            reduction_supported: true
+            multiple_buffering: 1
+            min_utilization: 0
+            allow_overbooking: false
+            meshX: 1
+            meshY: 1
+            technology: "45nm"
+            global_cycle_seconds: 1e-09
+            power_gated_at: null
+            version: '0.4'
+            action_latency_cycles: 1
+            cycle_seconds: 1e-09
+            n_instances: 1
+        required_actions:
+          - read
+          - leak
+          - update
+          - write
+        enabled: true
+        area_scale: 1.0
+        energy_scale: 1.0
+      - name: system_arch_top_level.compute[1..1]
+        class: mac_compute
+        attributes:
+            num_pipline_stages: 2
+            datawidth: 16
+            has_power_gating: false
+            meshX: 1
+            meshY: 1
+            technology: "45nm"
+            global_cycle_seconds: 1e-09
+            power_gated_at: null
+            version: '0.4'
+            action_latency_cycles: 1
+            cycle_seconds: 1e-09
+            n_instances: 1
+            num_pipeline_stages: 2
+        required_actions:
+          - compute
+        enabled: true
+        area_scale: 1.0
+        energy_scale: 1.0
