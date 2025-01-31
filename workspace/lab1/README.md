@@ -23,6 +23,12 @@ A. Parashar et al., "Timeloop: A Systematic Approach to DNN Accelerator Evaluati
 
 Also more resources can be found at the homepage on timeloop.csail.mit.edu
 
+The lab is setup to use regression tests to check your answers automatically. In order to use this system the code uses a special "answer()" function that you will use to indicate a graded answer. In some cases, all you will do is fill in a value into the answer directly. In other cases, obtaining the answer requires writing new code of your own that indirectly supports or finds the answer. 
+
+If you are expected to write the answer then the value will be "FILL ME". In some cases the answer is multiple choice and the options are indicted by the "required_types" field (i.e., 'Accuracy Increase', 'Accuracy Decrease', 'No Change'). In this case, your answer must exactly match one of these options to receive credit. In other cases the required_type will be more general like "str" for string, indicating that you should provide a custom answer of that type that we will grade by hand. In some cases, the answer is itself a reference into code you wrote and you should not change the answer directly, but only the indicated functions. In this case, the line will be marked with a comment "Do Not Change This Line". Changing these lines will probably result in losing points.
+
+Running the python notebook will cause the creation of a file "answers.yaml" that must be submitted along with your code changes (see below). If you are curious, the source code for "answer()" and related functions can be found in "loaders.py". If you have not used YAML before then it is highly recommended to do an online tutorial to learn the format. This another very useful tool that will serve you in many different circumstances and programming languages.
+
 
 ## Submission
 Submit a zip file on Canvas. The directory and contents of the files to be submitted are as follows:
