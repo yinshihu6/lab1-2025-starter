@@ -1,4 +1,4 @@
-# Due date: Feb 17, 2025 at 11:59 P.M.
+# Due date: Feb 14, 2025 at 11:59 P.M.
 
 # Lab 1: Neural Network Profiling and Inference
 
@@ -44,7 +44,7 @@ First, we need to setup the [docker](https://docs.docker.com/get-started/) to ru
     - [Fedora](https://docs.docker.com/engine/install/fedora/)
 
 
-## Git Basics
+## Git Basics (Not used for Lab1, download source code on Canvas)
 
 Since we will be using Git to distribute the labs, you should also install `git` - however, if you are using Linux distributions or WSL2, `git` should either be already installed or available in your relevant package manager. On Mac OSX, the simplest way to install git is to try running git on your terminal which will prompt you to install Xcode Command Line Tools if they are not already installed. On Windows (without WSL2), you can download [Github Desktop](https://desktop.github.com/). Below are basic git command examples:
 
@@ -84,12 +84,4 @@ docker-compose up
 If your docker configuration changes the default IP address, then use that address when accessing the Jupyter server. If you want to avoid setting `DOCKER_ARCH` everytime, you can permanently add `DOCKER_ARCH=<your architecture>` into your `.bashrc` or `.zshrc`.
 
 ## Submission
-After finishing all of the provided notebooks, please run `make commmit` to
-submit your code. Check your submission on the GitHub website and ensure that
-all notebooks have all cells run and all outputs visible. Additionally, ensure
-that the `answers.yaml` file in the website matches the answers you have in your
-notebooks. If either the notebooks or the `answers.yaml` file are not up to
-date, you may lose points or receive a zero for the assignment.
-
-FAILURE TO FOLLOW THESE INSTRUCTIONS WILL RESULT IN YOU RECEIVING A ZERO FOR THE
-ASSIGNMENT. 
+On Canvas
