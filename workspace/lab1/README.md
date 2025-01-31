@@ -1,4 +1,4 @@
-# Due date: Feb 17, 2025 at 11:59 P.M.
+# Due date: Feb 7, 2025 at 11:59 P.M.
 
 # Lab 1: Neural Network Profiling and Inference
 
@@ -14,10 +14,11 @@ develop a quantitative understanding of the computation involved in these tasks
 and how these computations will be realized in hardware.
 
 ## Submission
-After finished the three notebooks, please run `make commmit` to submit your
-code. Check your submission on the GitHub website and ensure that all notebooks
-have all cells run and all outputs visible. Additionally, ensure that the
-`answers.yaml` file in the website matches the answers you have in your
-notebooks. If either the notebooks or the `answers.yaml` file are not up to date,
-you may lose points or receive a zero for the assignment.
+Submit a zip file on Canvas. The directory and contents of the files to be submitted are as follows:
+your name/workspace/lab5/answers.yaml
+  ├── answers.yaml
+  ├── 1_pytorch_dnn.ipynb
+  ├── 2_first_principles.ipynb
+  ├── 3_hardware.ipynb
 
+ 
