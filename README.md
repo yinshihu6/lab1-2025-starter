@@ -1,4 +1,4 @@
-# Due date: Feb 14, 2025 at 11:59 P.M.
+# Due date: Feb 7, 2025 at 11:59 P.M.
 
 # Lab 1: Neural Network Profiling and Inference
 
@@ -14,7 +14,7 @@ develop a quantitative understanding of the computation involved in these tasks.
 
 For this lab and forward, we will be using Docker to run the code, and Git to distribute the labs. Please read the instructions below and setup your Docker and Git properly, as this setup will be required for the future labs as well. Note that most of the labs do not require GPU support, and the Docker image we provide does not support GPU operations. Please reach out to the instructors in case you cannot setup your enviornments for the labs. 
 
-After you successfully launch a Jupyter notebook following the instructions below, please find details of this lab in [workspace/lab1/README.md](./workspace/lab1/README.md).
+These labs use Jupyter notebooks to package the code and make the environment more interactive. If you are not familiar with Jupyter notebook, tutorials can be found online and are highly recommended, as this is a skill that will serve you in many different areas and will make your use of Python more productive overall. After you successfully launch a Jupyter notebook following the instructions below, please find details of this lab in [workspace/lab1/README.md](./workspace/lab1/README.md).
 
 ## Installing Docker
 
