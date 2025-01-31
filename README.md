@@ -88,7 +88,7 @@ The lab is setup to use regression tests to check your answers automatically. In
 
 If you are expected to write the answer then the value will be "FILL ME". In some cases the answer is multiple choice and the options are indicted by the "required_types" field (i.e., 'Accuracy Increase', 'Accuracy Decrease', 'No Change'). In this case, your answer must exactly match one of these options to receive credit. In other cases the required_type will be more general like "str" for string, indicating that you should provide a custom answer of that type that we will grade by hand. In some cases, the answer is itself a reference into code you wrote and you should not change the answer directly, but only the indicated functions. In this case, the line will be marked with a comment "Do Not Change This Line". Changing these lines will probably result in losing points.
 
-Running the python notebook will cause the creation of a file "answers.yaml" that must be submitted along with your code changes (see more in lab1 folder README). If you are curious, the source code for "answer()" and related functions can be found in "loaders.py".
+Running the python notebook will cause the creation of a file "answers.yaml" that must be submitted along with your code changes (see more in lab1 folder README). If you are curious, the source code for "answer()" and related functions can be found in "loaders.py". If you have not used YAML before then it is highly recommended to do an online tutorial to learn the format. This another very useful tool that will serve you in many different circumstances and programming languages.
 
 ## Submission
 When you are finished, submit your generated answers.yaml and all changed python files as a Zip using Canvas. 
