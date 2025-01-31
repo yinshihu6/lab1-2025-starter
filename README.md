@@ -44,7 +44,7 @@ First, we need to setup the [docker](https://docs.docker.com/get-started/) to ru
     - [Fedora](https://docs.docker.com/engine/install/fedora/)
 
 
-## Git Basics (Not used for Lab1, download source code on Canvas)
+## Git Basics
 
 Since we will be using Git to distribute the labs, you should also install `git` - however, if you are using Linux distributions or WSL2, `git` should either be already installed or available in your relevant package manager. On Mac OSX, the simplest way to install git is to try running git on your terminal which will prompt you to install Xcode Command Line Tools if they are not already installed. On Windows (without WSL2), you can download [Github Desktop](https://desktop.github.com/). Below are basic git command examples:
 
@@ -83,5 +83,13 @@ docker-compose up
 
 If your docker configuration changes the default IP address, then use that address when accessing the Jupyter server. If you want to avoid setting `DOCKER_ARCH` everytime, you can permanently add `DOCKER_ARCH=<your architecture>` into your `.bashrc` or `.zshrc`.
 
+## Doing the lab
+The lab is setup to use regression tests to check your answers automatically. In order to use this system the code uses a special "answer()" function that you will use to indicate a graded answer. In some cases, all you will do is fill in a value into the answer directly. In other cases, obtaining the answer requires writing new code of your own that indirectly supports or finds the answer. 
+
+If you are expected to write the answer then the value will be "FILL ME". In some cases the answer is multiple choice and the options are indicted by the "required_types" field (i.e., 'Accuracy Increase', 'Accuracy Decrease', 'No Change'). In this case, your answer must exactly match one of these options to receive credit. In other cases the required_type will be more general like "str" for string, indicating that you should provide a custom answer of that type that we will grade by hand. In some cases, the answer is itself a reference into code you wrote and you should not change the answer directly, but only the indicated functions. In this case, the line will be marked with a comment "Do Not Change This Line". Changing these lines will probably result in losing points.
+
+Running the python notebook will cause the creation of a file "answers.yaml" that must be submitted along with your code changes (see more in lab1 folder README). If you are curious, the source code for "answer()" and related functions can be found in "loaders.py".
+
 ## Submission
-On Canvas
+When you are finished, submit your generated answers.yaml and all changed python files as a Zip using Canvas. 
+
