@@ -15,7 +15,7 @@ and how these computations will be realized in hardware.
 
 ## Submission
 Submit a zip file on Canvas. The directory and contents of the files to be submitted are as follows:
-your name/workspace/lab5/answers.yaml
+your name/workspace/lab1/
   ├── answers.yaml
   ├── 1_pytorch_dnn.ipynb
   ├── 2_first_principles.ipynb
