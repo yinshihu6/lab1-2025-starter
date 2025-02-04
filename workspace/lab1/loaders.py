@@ -2,7 +2,7 @@ import os
 from pathlib import Path
 from typing import Any, List, Optional, Tuple, Type, Union
 from ruamel.yaml.compat import StringIO
-import timeloopfe.v4 as tl
+import timeloop as tl
 import ruamel.yaml
 import logging, sys
 from numbers import Number

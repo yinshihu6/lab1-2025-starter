@@ -1,0 +1,26 @@
+'1.0':
+  What is your email address?: yinshi_hu@brown.edu
+  What is your kerberos?: none
+  What is your name?: Yinshi Hu
+'1.1':
+  ? "\n    The training accuracy is always a good indicator of the model performance
+    on\n    unseen data.\n    "
+  : 'False'
+  ? "\n    The white-with-black-background images are from the _____ distribution\n\
+    \    compared to your training and testing data.\n    "
+  : Same
+  ? "\n    Which accuracy is the better indicator of the model performance on unseen\n\
+    \    data?\n    "
+  : Test Accuracy
+  ? "\n    You have trained and tested the model on images give with white digits
+    on a\n    black background. However, you now want to use the model to classify
+    images\n    with black digits on a white background. How would you expect the
+    model's\n    accuracy to change?\n    "
+  : Accuracy Decrease
+'1.2':
+  What do the conv1 filters look like? Are there (or are there not) any discernable patterns?: It
+    looks like a 5*5 square and does not have any discernable patterns
+  What is the test accuracy of the model?: 97.92
+  What is the training accuracy of the model?: 98.176
+  What is the validation accuracy of the model?: 97.67
+  What number is shown in the first (index 0) image?: 7
